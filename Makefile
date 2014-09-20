@@ -5,7 +5,7 @@ PKG_VERSION:=0.3.0
 PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/PirateBox-Mesh-$(PKG_VER)
-PKG_SOURCE:=v$(PKG_VERSION).tar.gz
+PKG_SOURCE:=$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/PirateBox-Dev/PirateBox-Mesh/archive/
 PKG_MD5SUM:=38afc1183c8af38d43d72b28e5d7bda00d919dcd
 PKG_CAT:=zcat
