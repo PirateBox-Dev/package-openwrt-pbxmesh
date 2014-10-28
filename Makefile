@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=piratebox-mesh
-PKG_VERSION:=0.3.0
-PKG_RELEASE:=1
+PKG_VERSION:=1.1.2
+PKG_RELEASE:=2
 
-PKG_BUILD_DIR:=$(BUILD_DIR)/PirateBox-Mesh-$(PKG_VER)
+PKG_BUILD_DIR:=$(BUILD_DIR)/PirateBox-Mesh-$(PKG_VERSION)
 PKG_SOURCE:=$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/PirateBox-Dev/PirateBox-Mesh/archive/
-PKG_MD5SUM:=38afc1183c8af38d43d72b28e5d7bda00d919dcd
+PKG_MD5SUM:=d0fecc8400f1b7757d52ea933a49289b
 PKG_CAT:=zcat
 
 include $(INCLUDE_DIR)/package.mk
